@@ -41,6 +41,14 @@
       "year": "2012",
       "poster": "https://image.tmdb.org/t/p/w342/jAt4ugebhXKmAnirHAWe5P6gnMi.jpg",
       "binder": "I"
+    },
+    {
+      "id": "732b9060-8cd5-4aa2-8f19-e6ff70f4f528",
+      "tmdbId": 15552,
+      "title": "Cirque du Soleil: Varekai",
+      "year": "2003",
+      "poster": "https://image.tmdb.org/t/p/w342/q6NyeRGwhm55dsXECKFQn4EslA3.jpg",
+      "binder": "I"
     }
   ]
 }
