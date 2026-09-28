@@ -3904,6 +3904,42 @@
       "year": "1971",
       "poster": "https://image.tmdb.org/t/p/w342/vmpsZkrs4Uvkp9r1atL8B3frA63.jpg",
       "binder": "VII"
+    },
+    {
+      "id": "e4af9c96-6121-4f5a-a93d-cd85431ec522",
+      "tmdbId": 52448,
+      "mediaType": "movie",
+      "title": "Witch's Night Out",
+      "year": "1978",
+      "poster": "https://image.tmdb.org/t/p/w342/iT1I06kJyQlU6GDZrmOxzxCsR0m.jpg",
+      "binder": "VII"
+    },
+    {
+      "id": "e547e0e3-35e9-45af-aa6c-b29e308cfeb0",
+      "tmdbId": 10395,
+      "mediaType": "movie",
+      "title": "Wolf",
+      "year": "1994",
+      "poster": "https://image.tmdb.org/t/p/w342/5TprU55U2zjAMCwr2jQra3zj1zu.jpg",
+      "binder": "VII"
+    },
+    {
+      "id": "5acf110a-2f5a-492a-a185-bc85d1946452",
+      "tmdbId": 36657,
+      "mediaType": "movie",
+      "title": "X-Men",
+      "year": "2000",
+      "poster": "https://image.tmdb.org/t/p/w342/bRDAc4GogyS9ci3ow7UnInOcriN.jpg",
+      "binder": "VII"
+    },
+    {
+      "id": "8ddf234d-3780-4764-871a-3acc724d94ff",
+      "tmdbId": 36658,
+      "mediaType": "movie",
+      "title": "X2",
+      "year": "2003",
+      "poster": "https://image.tmdb.org/t/p/w342/bst4alFUXCxISwdRUKSMhhkrX1M.jpg",
+      "binder": "VII"
     }
   ]
 }
