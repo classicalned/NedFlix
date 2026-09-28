@@ -2,7 +2,7 @@
   "name": "NedFlix",
   "short_name": "NedFlix",
   "description": "Personal disc binder catalog",
-  "start_url": "./index.html",
+  "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "background_color": "#0b0b0d",
