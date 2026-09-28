@@ -1,4 +1,22 @@
 {
-  "binders": ["Unsorted", "I", "II", "III", "IV", "V", "VI", "VII"],
-  "movies": []
+  "binders": [
+    "Unsorted",
+    "I",
+    "II",
+    "III",
+    "IV",
+    "V",
+    "VI",
+    "VII"
+  ],
+  "movies": [
+    {
+      "id": "988bf568-3b58-4d0f-a291-6570c381ceb1",
+      "tmdbId": 1816,
+      "title": "A Chorus Line",
+      "year": "1985",
+      "poster": "https://image.tmdb.org/t/p/w342/bQzbO6y6gxePrEcU57Su8HJ9UdH.jpg",
+      "binder": "Unsorted"
+    }
+  ]
 }
