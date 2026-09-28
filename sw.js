@@ -1,4 +1,4 @@
-const CACHE = "nedflix-v6";
+const CACHE = "nedflix-v7";
 const ASSETS = [
   "./index.html",
   "./manifest.json",
