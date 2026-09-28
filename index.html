@@ -103,9 +103,6 @@
         <input id="newBinder" placeholder="VIII" />
         <button class="primary" id="addBinderBtn">Add</button>
       </div>
-      <label class="small">GitHub save token (once per phone if not baked in)</label>
-      <input class="field" id="ghToken" placeholder="ghp_…" autocomplete="off" />
-      <div class="row"><button class="ghost" id="saveToken">Save token on this phone</button></div>
       <div class="row">
         <button class="ghost" id="btnExport">Export backup</button>
         <button class="ghost" id="btnImport">Import backup</button>
@@ -389,15 +386,6 @@ $("file").onchange = (e) => {
   reader.readAsText(file);
   e.target.value = "";
 };
-
-$("saveToken").onclick = () => {
-  const t = $("ghToken").value.trim();
-  if (!t) { localStorage.removeItem(TOKEN_KEY); setStatus("Token cleared."); return; }
-  localStorage.setItem(TOKEN_KEY, t);
-  setStatus("Token saved on this phone.");
-  saveRemote();
-};
-$("ghToken").value = token();
 
 if ("serviceWorker" in navigator) navigator.serviceWorker.register("./sw.js");
 loadRemote().then(render);
