@@ -3075,7 +3075,34 @@
       "title": "Rumpelstiltskin",
       "year": "1987",
       "poster": "https://image.tmdb.org/t/p/w342/sTmY51bKxYdp4YyJYaZF3nzOQ5R.jpg",
-      "binder": "Unsorted"
+      "binder": "VI"
+    },
+    {
+      "id": "c2b46d2c-05b6-4c99-a41e-9b4b23c2badd",
+      "tmdbId": 11860,
+      "mediaType": "movie",
+      "title": "Sabrina",
+      "year": "1995",
+      "poster": "https://image.tmdb.org/t/p/w342/i8PbLJDPU7vCwwscWD625oHbJy.jpg",
+      "binder": "VI"
+    },
+    {
+      "id": "0f13645a-97c8-4e7f-b448-4af4fb0c8002",
+      "tmdbId": 13193,
+      "mediaType": "movie",
+      "title": "Saved!",
+      "year": "2004",
+      "poster": "https://image.tmdb.org/t/p/w342/nmf2tFTcRJZVEQ9e3mgLH5gAQYs.jpg",
+      "binder": "VI"
+    },
+    {
+      "id": "f95b9acb-5b09-4497-9526-ba2f2bf09184",
+      "tmdbId": 176,
+      "mediaType": "movie",
+      "title": "Saw",
+      "year": "2004",
+      "poster": "https://image.tmdb.org/t/p/w342/rLNSOudrayDBo1uqXjrhxcjODIC.jpg",
+      "binder": "VI"
     }
   ]
 }
