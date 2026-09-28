@@ -8,7 +8,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <meta name="apple-mobile-web-app-title" content="NedFlix" />
   <title>NedFlix</title>
-  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="manifest" href="./manifest.json" />
   <link rel="icon" href="icon-192.png" />
   <link rel="apple-touch-icon" href="icon-192.png" />
   <style>
@@ -395,7 +395,7 @@ $("file").onchange = (e) => {
   e.target.value = "";
 };
 
-if ("serviceWorker" in navigator) navigator.serviceWorker.register("./sw.js");
+if ("serviceWorker" in navigator) window.addEventListener("load", () => { navigator.serviceWorker.register("./sw.js").catch(() => {}); });
 loadRemote().then(render);
 render();
 </script>
