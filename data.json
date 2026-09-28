@@ -3238,6 +3238,60 @@
       "year": "1991",
       "poster": "https://image.tmdb.org/t/p/w342/tN2TjrVP9evNNNw7bGcowNuNIkl.jpg",
       "binder": "VI"
+    },
+    {
+      "id": "580162f6-e8e0-485b-8f25-33a2880e4a09",
+      "tmdbId": 8850,
+      "mediaType": "movie",
+      "title": "The Shadow",
+      "year": "1994",
+      "poster": "https://image.tmdb.org/t/p/w342/xAbFJH3vQYZvUyzzGAtG4OLy492.jpg",
+      "binder": "VI"
+    },
+    {
+      "id": "4fc3e199-c0b8-4486-bb1d-effd8006ba67",
+      "tmdbId": 10873,
+      "mediaType": "movie",
+      "title": "Shadow of the Vampire",
+      "year": "2000",
+      "poster": "https://image.tmdb.org/t/p/w342/nWm7DWi8X4D87XkM5qr9BhTJHq6.jpg",
+      "binder": "VI"
+    },
+    {
+      "id": "a404e024-9c24-4377-b64f-eee722b45a96",
+      "tmdbId": 1934,
+      "mediaType": "movie",
+      "title": "Shakespeare in Love",
+      "year": "1998",
+      "poster": "https://image.tmdb.org/t/p/w342/zdW7jdzPi4J9KZR3TyY2jn3Xh5e.jpg",
+      "binder": "VI"
+    },
+    {
+      "id": "b77ece03-34ef-48e3-a803-bf63e38b23c7",
+      "tmdbId": 399055,
+      "mediaType": "movie",
+      "title": "The Shape of Water",
+      "year": "2017",
+      "poster": "https://image.tmdb.org/t/p/w342/9zfwPffUXpBrEP26yp0q1ckXDcj.jpg",
+      "binder": "VI"
+    },
+    {
+      "id": "89e97a2b-94c1-47d8-96a5-8f3139551f7e",
+      "tmdbId": 278,
+      "mediaType": "movie",
+      "title": "The Shawshank Redemption",
+      "year": "1994",
+      "poster": "https://image.tmdb.org/t/p/w342/9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg",
+      "binder": "VI"
+    },
+    {
+      "id": "b39bf7d9-6332-43df-9ba8-71157b26d19f",
+      "tmdbId": 14755,
+      "mediaType": "tv",
+      "title": "She-Ra: Princess of Power",
+      "year": "1985",
+      "poster": "https://image.tmdb.org/t/p/w342/49ZbBp4eUQnXYRvm6HjNI6sSrdW.jpg",
+      "binder": "VI"
     }
   ]
 }
