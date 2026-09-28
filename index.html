@@ -76,7 +76,7 @@
       <h2>Add disc</h2>
       <input class="field" id="q" placeholder="Movie title" />
       <label class="small">Binder</label>
-      <select id="addBinder"></select>
+      <div class="binders" id="addBinder"></div>
       <div class="hits" id="hits"></div>
       <div class="row"><button class="ghost" style="flex:1" id="closeAdd">Close</button></div>
     </div>
@@ -86,7 +86,7 @@
     <div class="sheet">
       <h2 id="editTitle">Edit</h2>
       <label class="small">Binder</label>
-      <select id="editBinder"></select>
+      <div class="binders" id="editBinder"></div>
       <div class="row" style="margin-top:14px">
         <button class="danger" id="btnDelete">Delete</button>
         <button class="ghost" id="closeEdit">Cancel</button>
@@ -130,6 +130,8 @@ let saving = false;
 const $ = (id) => document.getElementById(id);
 let state = load();
 let filterBinder = "All";
+let addBinderSel = "Unsorted";
+let editBinderSel = "Unsorted";
 let editingId = null;
 
 function load() {
@@ -232,13 +234,18 @@ function renderBinders() {
     filterBinder = btn.dataset.b;
     render();
   });
-  fillSelect($("addBinder"));
-  fillSelect($("editBinder"));
+  renderBinderChips($("addBinder"), addBinderSel);
+  renderBinderChips($("editBinder"), editBinderSel);
 }
-function fillSelect(sel) {
-  const cur = sel.value;
-  sel.innerHTML = state.binders.map(b => `<option value="${esc(b)}">${esc(b)}</option>`).join("");
-  if ([...sel.options].some(o => o.value === cur)) sel.value = cur;
+function renderBinderChips(host, selected) {
+  if (!host) return;
+  host.innerHTML = state.binders.map(n => `<button type="button" class="chip ${n===selected?"on":""}" data-b="${esc(n)}">${esc(n)}</button>`).join("");
+  host.querySelectorAll(".chip").forEach(btn => btn.onclick = () => {
+    const n = btn.dataset.b;
+    if (host.id === "addBinder") addBinderSel = n;
+    if (host.id === "editBinder") editBinderSel = n;
+    renderBinderChips(host, n);
+  });
 }
 function esc(s) { return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
 
@@ -270,7 +277,7 @@ function render() {
 $("filter").addEventListener("input", render);
 
 function open(id, on) { $(id).classList.toggle("show", on); }
-$("btnAdd").onclick = () => { $("q").value = ""; $("hits").innerHTML = ""; $("addBinder").value = "Unsorted"; open("addOverlay", true); $("q").focus(); };
+$("btnAdd").onclick = () => { $("q").value = ""; $("hits").innerHTML = ""; addBinderSel = "Unsorted"; renderBinderChips($("addBinder"), addBinderSel); open("addOverlay", true); $("q").focus(); };
 $("closeAdd").onclick = () => open("addOverlay", false);
 $("closeEdit").onclick = () => open("editOverlay", false);
 $("btnMore").onclick = () => open("moreOverlay", true);
@@ -317,7 +324,7 @@ function addMovie(d) {
     title: d.title,
     year: d.year || "",
     poster: d.poster || "",
-    binder: $("addBinder").value || "Unsorted"
+    binder: addBinderSel || "Unsorted"
   });
   save();
   open("addOverlay", false);
@@ -329,12 +336,13 @@ function openEdit(id) {
   const m = state.movies.find(x => x.id === id);
   if (!m) return;
   $("editTitle").textContent = `${m.title}${m.year ? " ("+m.year+")" : ""}`;
-  $("editBinder").value = m.binder;
+  editBinderSel = m.binder;
+  renderBinderChips($("editBinder"), editBinderSel);
   open("editOverlay", true);
 }
 $("saveEdit").onclick = () => {
   const m = state.movies.find(x => x.id === editingId);
-  if (m) { m.binder = $("editBinder").value; save(); }
+  if (m) { m.binder = editBinderSel; save(); }
   open("editOverlay", false);
   render();
 };
