@@ -1,6 +1,6 @@
 {
-  "name": "Nedflix",
-  "short_name": "Nedflix",
+  "name": "NedFlix",
+  "short_name": "NedFlix",
   "description": "Personal disc binder catalog",
   "start_url": "./index.html",
   "scope": "./",
