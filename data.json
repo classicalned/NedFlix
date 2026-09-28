@@ -1069,6 +1069,87 @@
       "year": "1969",
       "poster": "https://image.tmdb.org/t/p/w342/m3KfbxvqaiAvRJ6MpguA3GuLdDQ.jpg",
       "binder": "Unsorted"
+    },
+    {
+      "id": "3a813976-492b-415b-8b41-1526caf47085",
+      "tmdbId": 681,
+      "mediaType": "movie",
+      "title": "Diamonds Are Forever",
+      "year": "1971",
+      "poster": "https://image.tmdb.org/t/p/w342/ooDT0eKrWCxJCsn9JehPkD0QYNj.jpg",
+      "binder": "Unsorted"
+    },
+    {
+      "id": "55f6cc0c-a27d-4057-9ef6-9b986212ad63",
+      "tmdbId": 253,
+      "mediaType": "movie",
+      "title": "Live and Let Die",
+      "year": "1973",
+      "poster": "https://image.tmdb.org/t/p/w342/39qkrjqMZs6utwNmihVImC3ghas.jpg",
+      "binder": "Unsorted"
+    },
+    {
+      "id": "f5a961ba-e36f-413d-a7be-8b5a134bdc2e",
+      "tmdbId": 682,
+      "mediaType": "movie",
+      "title": "The Man with the Golden Gun",
+      "year": "1974",
+      "poster": "https://image.tmdb.org/t/p/w342/xVkbKwGnBVNQ122GN5bCTMyPbWz.jpg",
+      "binder": "Unsorted"
+    },
+    {
+      "id": "1a5040fe-2cce-4378-baaf-7939ea88789d",
+      "tmdbId": 691,
+      "mediaType": "movie",
+      "title": "The Spy Who Loved Me",
+      "year": "1977",
+      "poster": "https://image.tmdb.org/t/p/w342/3ZxHKFxMYvAko680DsRgAZKWcLi.jpg",
+      "binder": "Unsorted"
+    },
+    {
+      "id": "515cfe61-8806-4d3e-9bce-362755e21082",
+      "tmdbId": 698,
+      "mediaType": "movie",
+      "title": "Moonraker",
+      "year": "1979",
+      "poster": "https://image.tmdb.org/t/p/w342/6LrJdXNmu5uHOVALZxVYd44Lva0.jpg",
+      "binder": "Unsorted"
+    },
+    {
+      "id": "74e2ee57-e24d-4e59-b0bf-08e8ff8e24ef",
+      "tmdbId": 699,
+      "mediaType": "movie",
+      "title": "For Your Eyes Only",
+      "year": "1981",
+      "poster": "https://image.tmdb.org/t/p/w342/xV4Nnr6DjjERlqNikqDQX8LUgua.jpg",
+      "binder": "Unsorted"
+    },
+    {
+      "id": "ab25b63d-38c1-43e8-87b5-4bdf83ef4c22",
+      "tmdbId": 700,
+      "mediaType": "movie",
+      "title": "Octopussy",
+      "year": "1983",
+      "poster": "https://image.tmdb.org/t/p/w342/yoosZitM9igSk3Sd0sBXIhKlAh1.jpg",
+      "binder": "Unsorted"
+    },
+    {
+      "id": "4ce59756-3c64-4f61-b57e-3eb7a7e0edb7",
+      "tmdbId": 707,
+      "mediaType": "movie",
+      "title": "A View to a Kill",
+      "year": "1985",
+      "poster": "https://image.tmdb.org/t/p/w342/arJF829RP9cYvh0NU70dC5TtXSa.jpg",
+      "binder": "Unsorted"
+    },
+    {
+      "id": "285d4031-7f61-43ff-872c-12e295cc3cbc",
+      "tmdbId": 708,
+      "mediaType": "movie",
+      "title": "The Living Daylights",
+      "year": "1987",
+      "poster": "https://image.tmdb.org/t/p/w342/1oRlmWX9hewpn2B44wawBjHd7dx.jpg",
+      "binder": "Unsorted"
     }
   ]
 }
