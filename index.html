@@ -6,8 +6,8 @@
   <meta name="theme-color" content="#0b0b0d" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <meta name="apple-mobile-web-app-title" content="Nedflix" />
-  <title>Nedflix</title>
+  <meta name="apple-mobile-web-app-title" content="NedFlix" />
+  <title>NedFlix</title>
   <link rel="manifest" href="manifest.webmanifest" />
   <link rel="icon" href="icon-192.png" />
   <link rel="apple-touch-icon" href="icon-192.png" />
@@ -58,7 +58,7 @@
 </head>
 <body>
   <header>
-    <div class="logo">NEDFLIX</div>
+    <div class="logo">NedFlix</div>
     <div class="count" id="count"></div>
   </header>
   <input class="search" id="filter" placeholder="Search your collection" />
@@ -197,7 +197,7 @@ async function saveRemote() {
       fileSha = null;
     }
     const body = {
-      message: "Update Nedflix catalog",
+      message: "Update NedFlix catalog",
       content: btoa(unescape(encodeURIComponent(JSON.stringify(state, null, 2)))),
       branch: GH_BRANCH
     };
@@ -308,7 +308,7 @@ async function searchTMDB() {
 function addMovie(d) {
   const tmdbId = Number(d.id);
   if (state.movies.some(m => m.tmdbId === tmdbId)) {
-    alert("Already in Nedflix.");
+    alert("Already in NedFlix.");
     return;
   }
   state.movies.push({
@@ -339,7 +339,7 @@ $("saveEdit").onclick = () => {
   render();
 };
 $("btnDelete").onclick = () => {
-  if (!confirm("Remove this disc from Nedflix?")) return;
+  if (!confirm("Remove this disc from NedFlix?")) return;
   state.movies = state.movies.filter(x => x.id !== editingId);
   save();
   open("editOverlay", false);
@@ -381,7 +381,7 @@ $("file").onchange = (e) => {
       save();
       render();
       open("moreOverlay", false);
-    } catch { alert("That file is not a Nedflix backup."); }
+    } catch { alert("That file is not a NedFlix backup."); }
   };
   reader.readAsText(file);
   e.target.value = "";
