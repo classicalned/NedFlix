@@ -1609,6 +1609,60 @@
       "year": "2001",
       "poster": "https://image.tmdb.org/t/p/w342/wuMc08IPKEatf9rnMNXvIDxqP4W.jpg",
       "binder": "III"
+    },
+    {
+      "id": "39efa7b6-91f8-48c5-bd84-6150920f0721",
+      "tmdbId": 672,
+      "mediaType": "movie",
+      "title": "Harry Potter and the Chamber of Secrets",
+      "year": "2002",
+      "poster": "https://image.tmdb.org/t/p/w342/sdEOH0992YZ0QSxgXNIGLq1ToUi.jpg",
+      "binder": "III"
+    },
+    {
+      "id": "5668d7b7-fb82-4191-af15-82cb069fc824",
+      "tmdbId": 673,
+      "mediaType": "movie",
+      "title": "Harry Potter and the Prisoner of Azkaban",
+      "year": "2004",
+      "poster": "https://image.tmdb.org/t/p/w342/aWxwnYoe8p2d2fcxOqtvAtJ72Rw.jpg",
+      "binder": "III"
+    },
+    {
+      "id": "2ec273f7-cc6b-4938-adfb-63269661581f",
+      "tmdbId": 674,
+      "mediaType": "movie",
+      "title": "Harry Potter and the Goblet of Fire",
+      "year": "2005",
+      "poster": "https://image.tmdb.org/t/p/w342/fECBtHlr0RB3foNHDiCBXeg9Bv9.jpg",
+      "binder": "III"
+    },
+    {
+      "id": "bc675d38-d4d0-400c-8232-953c6487c76c",
+      "tmdbId": 675,
+      "mediaType": "movie",
+      "title": "Harry Potter and the Order of the Phoenix",
+      "year": "2007",
+      "poster": "https://image.tmdb.org/t/p/w342/5aOyriWkPec0zUDxmHFP9qMmBaj.jpg",
+      "binder": "III"
+    },
+    {
+      "id": "a1ab5dfc-06f1-43e6-be52-2aa0c995891c",
+      "tmdbId": 767,
+      "mediaType": "movie",
+      "title": "Harry Potter and the Half-Blood Prince",
+      "year": "2009",
+      "poster": "https://image.tmdb.org/t/p/w342/z7uo9zmQdQwU5ZJHFpv2Upl30i1.jpg",
+      "binder": "III"
+    },
+    {
+      "id": "287e90cf-a704-4592-a1ce-2f07aa640719",
+      "tmdbId": 12444,
+      "mediaType": "movie",
+      "title": "Harry Potter and the Deathly Hallows: Part 1",
+      "year": "2010",
+      "poster": "https://image.tmdb.org/t/p/w342/iGoXIpQb7Pot00EEdwpwPajheZ5.jpg",
+      "binder": "III"
     }
   ]
 }
